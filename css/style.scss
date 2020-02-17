@@ -1,3 +1,4 @@
+@import 'partials/mixins';
 @import 'partials/variables';
 
 body {
@@ -25,6 +26,14 @@ a {
 header {
 	background-color: $grey;
 	padding: 10px 3%;
+}
+
+#logo {
+	width: 200px;
+	padding: 1%;
+	margin-bottom: 10px;
+	background-color: #333;
+	@include transform(rotate(-7.5deg))
 }
 
 .clear {

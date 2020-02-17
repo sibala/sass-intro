@@ -25,6 +25,16 @@ header {
   padding: 10px 3%;
 }
 
+#logo {
+  width: 200px;
+  padding: 1%;
+  margin-bottom: 10px;
+  background-color: #333;
+  -webkit-transform: rotate(-7.5deg);
+  -ms-transform: rotate(-7.5deg);
+  transform: rotate(-7.5deg);
+}
+
 .clear:before, .clear:after {
   content: "";
   display: table;
