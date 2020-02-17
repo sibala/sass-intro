@@ -1,7 +1,7 @@
 body {
   font: 100% Helvetica, sans-serif;
   color: #333;
-  background-color: #F3EECE;
+  background-color: #cef7ce;
 }
 
 * {
@@ -9,19 +9,19 @@ body {
 }
 
 h1 {
-  color: #F9C57E;
+  color: #95ee95;
 }
 
 h2 {
-  color: #555;
+  color: #333;
 }
 
 a {
-  color: #F17F30;
+  color: #95ee95;
 }
 
 header {
-  background-color: #555;
+  background-color: #333;
   padding: 10px 3%;
 }
 
@@ -29,7 +29,7 @@ header {
   width: 200px;
   padding: 1%;
   margin-bottom: 10px;
-  background-color: #333;
+  background-color: #1a1a1a;
   -webkit-transform: rotate(-7.5deg);
   -ms-transform: rotate(-7.5deg);
   transform: rotate(-7.5deg);
@@ -44,7 +44,7 @@ header {
 }
 
 #main-menu {
-  border-top: 1px solid #333;
+  border-top: 1px solid #1a1a1a;
 }
 #main-menu ul {
   margin: 0;
@@ -53,10 +53,10 @@ header {
 #main-menu ul li {
   display: inline;
   float: left;
-  border-right: 1px solid #333;
+  border-right: 1px solid #1a1a1a;
 }
 #main-menu ul li:hover {
-  background-color: #333;
+  background-color: #1a1a1a;
 }
 #main-menu ul li:last-child {
   border: none;
@@ -81,27 +81,55 @@ article, aside {
 aside {
   width: 16.6666666667%;
   padding: 0;
-  background-color: #555;
-  border-left: 1px dotted #555;
-  border-right: 1px dotted #555;
+  background-color: #333;
+  border-left: 1px dotted #333;
+  border-right: 1px dotted #333;
 }
 aside h2 {
-  color: #F3EECE;
+  color: #cef7ce;
   text-align: center;
 }
 
 footer {
   padding: 10px 3%;
-  border: 1px dotted #555;
+  border: 1px dotted #333;
 }
 footer section {
   width: 33.3333333333%;
   float: left;
   padding: 0 3%;
-  border-right: 1px dotted #555;
+  border-right: 1px dotted #333;
 }
 footer section:last-child {
   border: none;
+}
+
+#color-palette {
+  margin-top: 40px;
+}
+#color-palette h4 {
+  margin-bottom: 10px;
+}
+#color-palette li {
+  margin-right: 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+#color-palette li:nth-child(1) {
+  background-color: #95ee95;
+}
+#color-palette li:nth-child(2) {
+  background-color: #dffadf;
+}
+#color-palette li:nth-child(3) {
+  background-color: #106410;
+}
+#color-palette li:nth-child(4) {
+  background-color: #89fa89;
+}
+#color-palette li:nth-child(5) {
+  background-color: #b4cfb4;
 }
 
 /*# sourceMappingURL=style.css.map */
