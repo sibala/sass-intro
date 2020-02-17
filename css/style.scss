@@ -161,6 +161,39 @@ footer {
 	}
 }
 
+#sidebar-menu {
+	background-color: $background-color;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		width: 100%;
+
+		li {
+			border-bottom: 1px solid color.scale($background-color, $lightness: 50%);
+			text-align: center;
+
+			@for $i from 1 through 6 {
+				&:nth-child(#{$i}) {
+					background-color: color.scale($orange, $lightness: 10% * $i);
+				}
+			}
+		}
+
+		a {
+			display: block;
+			color: $grey;
+			padding: 10px;
+			text-decoration: none;
+
+			&:hover {
+				background-color: color.scale($background-color, $lightness: 50%);
+			}
+		}
+	}
+}
+
 
 
 

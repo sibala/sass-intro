@@ -132,4 +132,45 @@ footer section:last-child {
   background-color: #b4cfb4;
 }
 
+#sidebar-menu {
+  background-color: #cef7ce;
+}
+#sidebar-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+}
+#sidebar-menu ul li {
+  border-bottom: 1px solid #e7fbe7;
+  text-align: center;
+}
+#sidebar-menu ul li:nth-child(1) {
+  background-color: #a0f0a0;
+}
+#sidebar-menu ul li:nth-child(2) {
+  background-color: #aaf1aa;
+}
+#sidebar-menu ul li:nth-child(3) {
+  background-color: #b5f3b5;
+}
+#sidebar-menu ul li:nth-child(4) {
+  background-color: #bff5bf;
+}
+#sidebar-menu ul li:nth-child(5) {
+  background-color: #caf7ca;
+}
+#sidebar-menu ul li:nth-child(6) {
+  background-color: #d5f8d5;
+}
+#sidebar-menu ul a {
+  display: block;
+  color: #333;
+  padding: 10px;
+  text-decoration: none;
+}
+#sidebar-menu ul a:hover {
+  background-color: #e7fbe7;
+}
+
 /*# sourceMappingURL=style.css.map */
