@@ -31,3 +31,52 @@ header {
 	background-color: $grey;
 	padding: 10px 3%;
 }
+
+.clear {
+	&:before,
+	&:after {
+		content: "";
+  		display: table;
+  	}
+
+  	&:after {
+  		clear: both;
+  	}
+}
+
+#main-menu {
+	border-top: 1px solid #333;
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline;
+			float: left;
+			border-right: 1px solid #333;
+
+			&:hover {
+				background-color: #333;
+			}
+
+			&:last-child {
+				border: none;
+				
+				a {
+					&:last-child {
+						border: none;
+					}
+				}
+			}
+		}
+
+		a {
+			display: block;
+			padding: 10px 25px;
+			text-decoration: none;
+			border-right: 1px solid #777;
+
+		}
+	}
+}

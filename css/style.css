@@ -25,4 +25,40 @@ header {
   padding: 10px 3%;
 }
 
+.clear:before, .clear:after {
+  content: "";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+
+#main-menu {
+  border-top: 1px solid #333;
+}
+#main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+#main-menu ul li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #333;
+}
+#main-menu ul li:hover {
+  background-color: #333;
+}
+#main-menu ul li:last-child {
+  border: none;
+}
+#main-menu ul li:last-child a:last-child {
+  border: none;
+}
+#main-menu ul a {
+  display: block;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-right: 1px solid #777;
+}
+
 /*# sourceMappingURL=style.css.map */
