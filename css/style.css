@@ -71,4 +71,37 @@ header {
   border-right: 1px solid #777;
 }
 
+article, aside {
+  width: 83.3333333333%;
+  padding: 10px 3%;
+  float: left;
+  min-height: 300px;
+}
+
+aside {
+  width: 16.6666666667%;
+  padding: 0;
+  background-color: #555;
+  border-left: 1px dotted #555;
+  border-right: 1px dotted #555;
+}
+aside h2 {
+  color: #F3EECE;
+  text-align: center;
+}
+
+footer {
+  padding: 10px 3%;
+  border: 1px dotted #555;
+}
+footer section {
+  width: 33.3333333333%;
+  float: left;
+  padding: 0 3%;
+  border-right: 1px dotted #555;
+}
+footer section:last-child {
+  border: none;
+}
+
 /*# sourceMappingURL=style.css.map */
