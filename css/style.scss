@@ -1,0 +1,33 @@
+$font-stack:    		Helvetica, sans-serif;
+$primary-color: 		#333;
+$background-color: 		#F3EECE;
+$light-orange:			#F9C57E;
+$orange:				#F17F30;
+$grey:					#555;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $background-color;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: $light-orange;
+}
+
+h2 {
+  color: $grey;
+}
+
+a {
+  color: $orange;
+}
+
+header {
+	background-color: $grey;
+	padding: 10px 3%;
+}
