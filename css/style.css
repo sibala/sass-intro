@@ -1,0 +1,28 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+  background-color: #F3EECE;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #F9C57E;
+}
+
+h2 {
+  color: #555;
+}
+
+a {
+  color: #F17F30;
+}
+
+header {
+  background-color: #555;
+  padding: 10px 3%;
+}
+
+/*# sourceMappingURL=style.css.map */
